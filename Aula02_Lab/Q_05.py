@@ -1,16 +1,18 @@
 # Questão 05
 """
-Comandos de intalação de Bibliotecas: 
+Comandos de instalação de Bibliotecas: 
 
 python -m pip install -U pip
 python -m pip install -U matplotlib
 pip install numpy
 """
 
-import Q_03 as q3
 import math
-import numpy as np
+
 import matplotlib.pyplot as plt
+import numpy as np
+
+import Q_03 as q3
 
 # Valores
 tamanho, x, y, valor = 1000, 500, 500, 1
@@ -31,4 +33,5 @@ for i in range(tamanho):
 # Plotar a imagem modificada
 plt.imshow(I, cmap='gray', vmin=0, vmax=1)
 plt.title('Imagem modificada')
+plt.tight_layout()
 plt.show()
