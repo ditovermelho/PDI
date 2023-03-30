@@ -7,12 +7,11 @@ python -m pip install -U matplotlib
 pip install numpy
 """
 
-import math
 
 import matplotlib.pyplot as plt
 import numpy as np
 
-import Q_03 as q3
+import d
 
 # Valores
 tamanho, x, y, valor = 1000, 500, 500, 1
@@ -27,7 +26,7 @@ for i in range(tamanho):
         p = (x, y)
         q = (i, j)
 
-        if q3.d_euclidiana(p, q) <= 60:
+        if d.euclidiana(p, q) <= 60:
             I[i, j] = valor
 
 # Plotar a imagem modificada

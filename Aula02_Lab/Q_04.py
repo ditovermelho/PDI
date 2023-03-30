@@ -7,12 +7,11 @@ python -m pip install -U matplotlib
 pip install numpy
 """
 
-import math
 
 import matplotlib.pyplot as plt
 import numpy as np
 
-import Q_03 as q3
+import d
 
 # Criação da matriz de 20x20 com todos os elementos igauis a zero
 I = np.zeros((20, 20), dtype='int')
@@ -27,7 +26,7 @@ for i in range(tamanho):
         p = (x, y)
         q = (i, j)
 
-        if q3.d_euclidiana(p, q) <= 4:
+        if d.euclidiana(p, q) <= 4:
             I[i, j] = valor
 
 # Plotar a imagem modificada
