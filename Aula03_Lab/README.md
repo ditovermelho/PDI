@@ -23,7 +23,7 @@ No nosso caso:
 ```javascript
 pipreqs ./pythonfile
 ```
-ou para forcar a criação:
+ou para forçar a criação:
 ```javascript
 pipreqs --force ./pythonfile
 ```
