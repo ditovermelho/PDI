@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # Repositório da 2 aula de Processamento de Imagem
+=======
+# Repositório da 1 aula de Processamento de Imagem
+Questões estão comentadas em cada codigo do projeto.
+>>>>>>> 43cc91564d4f5861f11ee1844432fe2056673d9c
 
 ## Comandos de inicio de projeto 
 * Criando maquina virtual:
