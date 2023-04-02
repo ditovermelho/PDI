@@ -1,4 +1,4 @@
-# Repositório da 1 aula de Processamento de Imagem
+# Repositório da 2 aula de Processamento de Imagem
 
 ## Comandos de inicio de projeto 
 * Criando maquina virtual:
