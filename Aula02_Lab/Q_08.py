@@ -1,11 +1,7 @@
-# Questão 08
-
 """
-Comandos de intalação de Bibliotecas: 
-
-python -m pip install -U pip
-python -m pip install -U scikit-image
-python -m pip install -U matplotlib
+# Questão 08: Execute o código abaixo e comente os resultados. Por que foi necessário usar a
+função resize?
+Obs. Note que operações aritméticas entre imagens podem gerar efeitos interessantes.
 """
 
 import matplotlib.pyplot as plt

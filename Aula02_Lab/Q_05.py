@@ -1,17 +1,15 @@
-# Questão 05
+
 """
-Comandos de instalação de Bibliotecas: 
-
-python -m pip install -U pip
-python -m pip install -U matplotlib
-pip install numpy
+# Questão 05: Repita o exercício anterior utilizando uma imagem binária 1000x1000, o ponto p com
+coordenadas (500,500), e ilumine os pixels q tais que De(p, q)≤60. Plote a imagem
+resultante e comente as principais diferenças em relação à imagem gerada no Exercício
+4.
 """
 
-
-import matplotlib.pyplot as plt
-import numpy as np
 
 import d
+import matplotlib.pyplot as plt
+import numpy as np
 
 # Valores
 tamanho, x, y, valor = 1000, 500, 500, 1

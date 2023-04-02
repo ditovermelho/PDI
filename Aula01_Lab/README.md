@@ -1,5 +1,5 @@
 # Repositório da 1 aula de Processamento de Imagem
-Questões estão comentadas no codigo do projeto.
+Questões estão comentadas no código do projeto.
 
 ## Comandos de inicio de projeto 
 * Criando maquina virtual:

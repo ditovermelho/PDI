@@ -1,14 +1,9 @@
-# Questão 09
 """
-Comandos de instalação de Bibliotecas: 
-
-pip install numpy
-python -m pip install -U matplotlib
+# Questão 09: Execute o código abaixo e discuta os resultados.
 """
+import d
 import matplotlib.pyplot as plt
 import numpy as np
-
-import d
 
 Iq = 0.5*np.ones((500, 500), dtype='int')
 Ic = 0.5*np.ones((500, 500), dtype='int')

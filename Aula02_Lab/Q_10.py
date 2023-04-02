@@ -1,15 +1,14 @@
-# Questão 10
-
 """
-Comandos de instalação de Bibliotecas: 
-
-pip install numpy
-python -m pip install -U matplotlib
+# Questão 10: Apenas modifique o código do exercício anterior para calcular e plotar:
+a) Iq − Ic
+b) Iq and Ic
+c) Iq + 0.5orIc
+Comente os resultados. (sugestão: para realizar operações lógicas, utilize uma
+variável auxiliar)
 """
+import d
 import matplotlib.pyplot as plt
 import numpy as np
-
-import d
 
 Iq = 0.5*np.ones((500, 500), dtype='int')
 Ic = 0.5*np.ones((500, 500), dtype='int')

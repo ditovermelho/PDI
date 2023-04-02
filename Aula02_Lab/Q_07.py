@@ -1,8 +1,6 @@
-# Questão 07
 """
-Comandos de instalação de Bibliotecas: 
-
-pip install numpy
+# Questão 07: Execute e discuta o código abaixo. Compare com o exercício resolvido da página
+29 do material “Aula EAD 1”.
 """
 import numpy as np
 

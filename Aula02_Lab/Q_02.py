@@ -1,10 +1,9 @@
-# Questão 02
 """
-Comandos de instalação de Bibliotecas: 
-
-python -m pip install -U pip
-python -m pip install -U matplotlib
-pip install numpy
+# Questão 02: Utilize a função ones da biblioteca numpy para plotar uma imagem binária de dimensão
+20x20 com todos os valores de pixels iguais a um. Escureça apenas os
+pixels na vizinhança diagonal do pixel na posição (x,y) = (8,15). Plote a imagem
+original (para isso, passe os parâmetros vmin=0, vmax=1 para a função plt.imshow)
+e a modificada na mesma figura.
 """
 
 import matplotlib.pyplot as plt

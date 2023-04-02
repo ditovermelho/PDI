@@ -1,17 +1,13 @@
-# Questão 06
 """
-Comandos de instalação de Bibliotecas: 
-
-python -m pip install -U pip
-python -m pip install -U matplotlib
-pip install numpy
+# Questão 06: Implemente uma função que calcula a distância de Chebyshev (Chessboard) e repita
+o Exercício 5 utilizando esta nova função de distância. Chame esta função de
+d_chebyshev (p, q).
 """
 
-
-import matplotlib.pyplot as plt
-import numpy as np
 
 import d
+import matplotlib.pyplot as plt
+import numpy as np
 
 # Valores
 tamanho, x, y, valor, comparador = 1000, 500, 500, 1, 60

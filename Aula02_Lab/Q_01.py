@@ -1,10 +1,10 @@
-# Questão 01
 """
-Comandos de instalação de Bibliotecas: 
-
-python -m pip install -U pip
-python -m pip install -U matplotlib
-pip install numpy
+# Questão 01: Utilize a função zeros da biblioteca numpy para plotar uma imagem binária de dimensão
+20x20 com todos os valores de pixels iguais a zero. Para isso, utilize o
+comando:
+I = np.zeros((20,20), dtype=’int’)
+Ilumine apenas os pixels na 4-vizinhança do pixel na posição (x,y) = (10,10). Plote a
+imagem original e a modificada na mesma figura utilizando a função plt.subplot(1,2,1).
 """
 
 import matplotlib.pyplot as plt

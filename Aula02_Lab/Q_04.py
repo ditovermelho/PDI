@@ -1,17 +1,14 @@
-# Questão 04
-"""
-Comandos de instalação de Bibliotecas: 
 
-python -m pip install -U pip
-python -m pip install -U matplotlib
-pip install numpy
+"""
+# Questão 04: Utilize a mesma imagem utilizada no Exercício 1 e ilumine apenas os pixels tais que
+a distância Euclidiana entre eles e o pixel p com coordenadas (10,10) seja menor ou
+igual a quatro. Plote a imagem resultante.
 """
 
-
-import matplotlib.pyplot as plt
-import numpy as np
 
 import d
+import matplotlib.pyplot as plt
+import numpy as np
 
 # Criação da matriz de 20x20 com todos os elementos igauis a zero
 I = np.zeros((20, 20), dtype='int')
