@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```
 basta digitar o comando acima no CMD.
 
-## docker file ainda nã funciona
+## docker file ainda não funciona
 ```javascript
 docker build -f Dockerfile -t venv .
 ```
