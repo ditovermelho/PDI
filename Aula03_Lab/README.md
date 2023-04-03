@@ -1,4 +1,11 @@
 # Repositório da 3 aula de Processamento de Imagem
+Conceito de Realce de imagens, Histograma, Equalização de Histograma, Métodos de Binarização, Transformação de Intensidades
+Objetivos:
+1. Compreender na prática o conceito de Realce de Imagens.
+2. Visualizar Histograma de imagens.
+3. Implementar o realce de Imagens utilizando equalização de Histogramas.
+4. Implementar a binarização de imagens por diferentes método.
+
 Questões estão comentadas em cada código do projeto.
 
 ## Comandos de inicio de projeto 
