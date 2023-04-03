@@ -1,9 +1,11 @@
 # Repositório da 2 aula de Processamento de Imagem
 __Conceito de Vizinhança, Distância e Operações Aritméticas e Lógicas com imagens__
-Objetivos:
+
+__Objetivos:__
 1. Identificar a vizinhança de um determinado pixel em uma imagem.
 2. Implementar e testar funções de distância e de normalização para imagens.
-3. Realizar operações aritméticas e lógicas entre imagens..
+3. Realizar operações aritméticas e lógicas entre imagens.
+
 Questões estão comentadas em cada código do projeto.
 
 ## Comandos de inicio de projeto 
