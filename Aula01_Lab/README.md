@@ -1,5 +1,6 @@
 # Repositório da 1 aula de Processamento de Imagem
 __Fundamentos de python e de operação com as bibliotecas matplotlibrary e scikit-image__
+
 __Objetivos:__
 1. Conhecer os aspectos básicos da ferramenta de trabalho para estas práticas.
 2. Conhecer os tipos de imagens com que trabalha o programa.
