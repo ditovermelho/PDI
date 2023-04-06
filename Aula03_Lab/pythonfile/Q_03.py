@@ -59,7 +59,7 @@ plt.imshow(I, cmap='gray')  # Exibindo a imagem original em tons de cinza
 plt.title('Imagem em tons de cinza.')  # Definido um titulo para imagem
 
 plt.subplot(2, 3, 2)  # Criando um subgrupo de imagens com base na figura
-# Plotando um gráfico de linhas usando os valores de x no eixo horizontal e hist no eixo vertical.
+# Plotando um gráfico de barras usando os valores de x no eixo horizontal e hist no eixo vertical.
 plt.bar(x, hist)
 plt.title('Histograma em gráfico de barras.')  # Definido um titulo para imagem
 
@@ -69,7 +69,7 @@ plt.imshow(Ieq, cmap='gray')  # Definido um titulo para imagem equalizando
 plt.title('Imagem Equalizando em tons de cinza.')
 
 plt.subplot(2, 3, 5)  # Criando um subgrupo de imagens com base na figura
-# Plotando um gráfico de linhas usando os valores de x_eq no eixo horizontal e hist_eq no eixo vertical.
+# Plotando um gráfico de barras usando os valores de x_eq no eixo horizontal e hist_eq no eixo vertical.
 plt.bar(x_eq, hist_eq)
 # Definido um titulo para imagem
 plt.title('Histograma de Ieq em gráfico de barras.')
