@@ -5,8 +5,13 @@ Quais os dois filtros utilizados e quais suas principais características? Agora
 por Imgfilt > 0.07 na função plt.imshow e comente o resultado. (Sugestão:  Ver notas de aula e identifique a 
 máscara utilizada nos slides. Faça uma rápida pesquisa no google sobre o filtro laplaciano)
 """
+# Imports
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy import ndimage
+from skimage import io
 
-I = imread('Laboratorio_4_2.jpg', as_gray=True)
+I = io.imread('./img/Laboratorio_4_2.jpg', as_gray=True)
 Imgfilt = ndimage.laplace(I, mode='constant', cval=0.0)
 
 mask = np.array([[1, 1, 1], [1, -8, 1], [1, 1, 1]])
