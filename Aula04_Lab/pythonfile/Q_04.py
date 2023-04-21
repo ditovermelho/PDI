@@ -17,10 +17,23 @@ Imgfilt = ndimage.laplace(I, mode='constant', cval=0.0)
 mask = np.array([[1, 1, 1], [1, -8, 1], [1, 1, 1]])
 Imgfilt1 = ndimage.convolve(I, mask, mode='constant', cval=0.0)
 
+"""
+fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(10, 6))
+ax = axes.ravel()
+ax[0].imshow(I, cmap='gray')
+ax[0].set_title('Original')
+ax[1].imshow(Imgfilt, cmap='gray')
+ax[1].set_title('Filtro laplace')
+ax[2].imshow(Imgfilt1, cmap='gray')
+ax[2].set_title('Filtro convolve')
+"""
+
 plt.figure()
 plt.imshow(I, cmap='gray')
 plt.figure()
 plt.imshow(Imgfilt, cmap='gray')
 plt.figure()
 plt.imshow(Imgfilt1, cmap='gray')
-plt.show()
+
+plt.tight_layout()  # Ajuste automático no espaçamento entre subplots
+plt.show()  # Exibindo todas as imagens criadas.

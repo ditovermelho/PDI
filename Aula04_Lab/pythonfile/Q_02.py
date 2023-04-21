@@ -34,5 +34,6 @@ ax[0].set_title('Original')
 for i, Imgfilt in enumerate(Imgfilt):
     ax[i+1].imshow(Imgfilt, cmap='gray')
     ax[i+1].set_title(f'Filtro {sizes[i]}x{sizes[i]}')
-plt.tight_layout()
-plt.show()
+
+plt.tight_layout()  # Ajuste automático no espaçamento entre subplots
+plt.show()  # Exibindo todas as imagens criadas.
