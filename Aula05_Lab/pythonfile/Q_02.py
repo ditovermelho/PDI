@@ -6,6 +6,7 @@ Plote os gráficos do sinal do domínio do tempo e da frequência e responda as 
 perguntas justificando: Quais as frequências presentes no sinal? É possível identificar a
 frequência em que maior parte da energia do sinal está presente?
 """
+# Imports
 import matplotlib.pyplot as plt
 import numpy as np
 
